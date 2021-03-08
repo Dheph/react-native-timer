@@ -1,0 +1,12 @@
+{
+  "name": "react-native-timer",
+  "displayName": "react-native-timer",
+  "expo": {
+    "name": "react-native-timer",
+    "slug": "react-native-timer",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
