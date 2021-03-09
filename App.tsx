@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text style={styles.menuText}>Hola</Text>
     </View>
   );
 }
@@ -12,8 +12,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#423F3F',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  menuText:{
+    color:'#C8C4C4',
+    fontSize:20,
+    width:250,
+    textAlign:'center'
+  }
 });
