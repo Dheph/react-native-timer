@@ -8,8 +8,6 @@ import {
   Input, 
   SubmitButton,
   SubmitText, 
-  Link, 
-  LinkText
 } from '../Signin/styles';
 
 export default function SignUp() {
@@ -48,6 +46,7 @@ export default function SignUp() {
             autoCorrect={false}
             autoCapitalize="none"
             value={password}
+            secureTextEntry={false}
             onChangeText={(text) => setPassword(text)}
           />
         </AreaInput>
