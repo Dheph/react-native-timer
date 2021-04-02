@@ -1,7 +1,8 @@
-import firebase from 'firebase';
-import {FIREBASE} from '../../.env.json'
-import 'firebase/database'
+import firebase from 'firebase/app';
 import 'firebase/auth';
+import 'firebase/database';
+
+import {FIREBASE} from '../../.env.json'
 
 const firebaseConfig = {
     apiKey: FIREBASE.API_KEY,
